@@ -1,0 +1,220 @@
+
+
+
+.container {
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .esquerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cardapio img {
+    width: 20px;
+  }
+  
+  .youtube img.logo {
+    width: 100px;
+  }
+  
+  .centro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .procurar img {
+    width: 20px;
+  }
+  
+  .retangulo1 input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .retangulo2 img.procurar {
+    width: 20px;
+  }
+  
+  .certo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .video img {
+    width: 20px;
+  }
+  
+  .sino img {
+    width: 20px;
+  }
+  
+  .avatar img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+    
+/*parte dois*/
+
+.caixote-principal{
+    display: inline-flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 16px;
+   margin-top: -1px;
+}
+
+.watching-video{
+    margin-left: 70px;
+    margin-top: 28px;
+}
+
+.imagem-2{
+    width: 952px;
+    height: 537px;
+    background-image: url(../img/image\ 2.png);
+}
+
+.semana-front{
+    color: #000;
+     font-size: 20px;
+     font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.video-actionsum{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    margin-left: 70px;
+    width: 902px;
+    height: 42px;
+}
+
+
+/*buttons*/
+
+
+.channel-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .dio-inscritos {
+    font-size: 14px;
+  }
+  
+  .subscribe-button button {
+    padding: 8px 16px;
+    background-color: #c00;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .like-button img {
+    width: 20px;
+  }
+  
+  .quantidade {
+    font-size: 12px;
+    color: #606060;
+  }
+  
+  .dislike-img img {
+    width: 20px;
+  }
+  
+  .quantidade-dois {
+    font-size: 12px;
+    color: #606060;
+  }
+  
+  .share-img img {
+    width: 20px;
+  }
+  
+  .compartilhar p {
+    font-size: 12px;
+    color: #606060;
+  }
+  
+  .download-img img {
+    width: 20px;
+  }
+  
+  .download p {
+    font-size: 12px;
+    color: #606060;
+  }
+
+.texto-um{
+    margin-left: 70px;
+    width: 391px;
+    height: 16px;
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.texto-dois{
+    margin-left: 70px;
+    width: 504px;
+    height: 64px;
+    color: #515151;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+/*parte 3*/
+
+.sidebar{
+    position:absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+     gap: 16px;
+     box-sizing: border-box;
+     margin-left: 25px;
+     margin-top: 28px;
+    
+
+}
+
+.video{
+    display: flex;
+   height: 90px;
+   justify-content: flex-end;
+   align-items: flex-start;
+   gap: 16px;
+}
+
+
+
